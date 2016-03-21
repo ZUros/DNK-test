@@ -40,11 +40,11 @@ Azijec="CGCGGGCCG"
 
 
 #Izpis imena:
-if dokaz.find(Barva_las_korencek)>=0 and dokaz.find(Okrogla_oblika_obraza)>=0 and dokaz.find(Rjava_barva_oci) >= 0:
+if dokaz.find(Barva_las_korencek) and dokaz.find(Okrogla_oblika_obraza) and dokaz.find(Rjava_barva_oci) > 0:
     print "Sladoled je pojedel Ziga!"
-elif dokaz.find(Barva_las_crna)>=0 and dokaz.find(Ovalna_oblika_obraza)>=0 and dokaz.find(Modra_barva_oci) >= 0:
+elif dokaz.find(Barva_las_crna) and dokaz.find(Ovalna_oblika_obraza) and dokaz.find(Modra_barva_oci) > 0:
     print "Sladoled je pojedel Matej!"
-elif dokaz.find(Barva_las_rjava)>=0 and dokaz.find(Kvadratna_oblika_obraza)>=0 and dokaz.find(Zelena_barva_oci) >= 0:
+elif dokaz.find(Barva_las_rjava) and dokaz.find(Kvadratna_oblika_obraza) and dokaz.find(Zelena_barva_oci) > 0:
     print "Sladoled je pojedel Miha!"
 
 
